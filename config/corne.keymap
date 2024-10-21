@@ -24,7 +24,7 @@
         colemak {
             bindings = <
 &kp TAB         &kp Q  &kp W  &kp F     &kp P      &kp B           &kp J      &kp L            &kp U       &kp Y    &kp SEMI  &kp DELETE
-&kp LEFT_SHIFT  &kp A  &kp R  &kp S     &kp T      &kp G           &kp M      &kp N            &kp E       &kp I    &kp O     &kp MINUS
+&sk LEFT_SHIFT  &kp A  &kp R  &kp S     &kp T      &kp G           &kp M      &kp N            &kp E       &kp I    &kp O     &kp MINUS
 &kp LCTRL       &kp Z  &kp X  &kp C     &kp D      &kp V           &kp K      &kp H            &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
                               &kp LALT  &kp SPACE  &kp LEFT_WIN    &kp ENTER  &lt 2 BACKSPACE  &kp ESCAPE
             >;
@@ -39,7 +39,7 @@
 
             bindings = <
 &kp TAB           &kp Q  &kp W  &kp E         &kp R      &kp T           &kp Y    &kp U            &kp I       &kp O    &kp SEMI  &kp DELETE
-&kp LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F      &kp G           &kp H    &kp J            &kp K       &kp L    &kp P     &kp MINUS
+&sk LEFT_SHIFT    &kp A  &kp S  &kp D         &kp F      &kp G           &kp H    &kp J            &kp K       &kp L    &kp P     &kp MINUS
 &kp LEFT_CONTROL  &kp Z  &kp X  &kp C         &kp V      &kp B           &kp N    &kp M            &kp COMMA   &kp DOT  &kp FSLH  &kp SQT
                                 &kp LEFT_ALT  &kp SPACE  &kp LEFT_WIN    &kp RET  &lt 2 BACKSPACE  &kp ESCAPE
             >;
@@ -47,10 +47,10 @@
 
         navnum {
             bindings = <
-&trans         &kp LC(LS(Z))  &kp LC(Z)  &kp UP     &kp F2     &kp F5       &trans          &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans
-&kp BACKSPACE  &trans         &kp LEFT   &kp DOWN   &kp RIGHT  &kp LC(S)    &kp LEFT_SHIFT  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans
-&trans         &trans         &kp LC(A)  &kp LC(C)  &kp LC(V)  &kp LC(X)    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans
-                                         &trans     &trans     &trans       &trans          &trans        &kp NUMBER_0
+&trans         &trans     &kp LC(LS(Z))  &kp UP     &kp F2     &kp F5       &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_EQUAL  &trans
+&kp BACKSPACE  &kp LC(Z)  &kp LEFT       &kp DOWN   &kp RIGHT  &kp LC(S)    &kp LEFT_SHIFT   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp KP_PLUS   &kp KP_SUBTRACT
+&trans         &trans     &kp LC(A)      &kp LC(C)  &kp LC(V)  &kp LC(X)    &kp KP_DIVIDE    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans        &trans
+                                         &trans     &trans     &trans       &trans           &trans        &kp NUMBER_0
             >;
         };
 
