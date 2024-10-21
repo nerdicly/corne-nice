@@ -12,9 +12,16 @@
     combos {
         compatible = "zmk,combos";
 
-        layer {
+        qwerty {
             bindings = <&to 1>;
             key-positions = <38 12>;
+            layers = <0>;
+        };
+
+        colemak {
+            bindings = <&to 0>;
+            key-positions = <38 16>;
+            layers = <1>;
         };
     };
 
