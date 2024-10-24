@@ -14,7 +14,7 @@
 
         qwerty {
             bindings = <&to 1>;
-            key-positions = <38 12>;
+            key-positions = <38 17>;
             layers = <0>;
         };
 
@@ -23,6 +23,16 @@
             key-positions = <38 16>;
             layers = <1>;
         };
+
+        screenshot {
+            bindings = <&kp LS(S)>;
+            key-positions = <36 14>;
+        };
+
+        explorer {
+            bindings = <&kp LG(E)>;
+            key-positions = <36 3>;
+        };
     };
 
     keymap {
@@ -30,10 +40,10 @@
 
         colemak {
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp F         &kp P         &kp B        &kp J          &kp L        &kp U         &kp Y    &kp SEMI  &kp DELETE
-&sk LEFT_SHIFT  &kp A  &kp R  &kp S         &kp T         &kp G        &kp M          &kp N        &kp E         &kp I    &kp O     &kp MINUS
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp D         &kp V        &kp K          &kp H        &kp COMMA     &kp DOT  &kp FSLH  &kp SQT
-                              &kp LEFT_WIN  &kp LEFT_ALT  &kp SPACE    &kp BACKSPACE  &lt 2 ENTER  &lt 3 ESCAPE
+&kp TAB         &kp Q  &kp W  &kp F     &kp P          &kp B        &kp J         &kp L        &kp U         &kp Y    &kp SEMI  &kp DELETE
+&sk LEFT_SHIFT  &kp A  &kp R  &kp S     &kp T          &kp G        &kp M         &kp N        &kp E         &kp I    &kp O     &kp MINUS
+&kp LCTRL       &kp Z  &kp X  &kp C     &kp D          &kp V        &kp K         &kp H        &kp COMMA     &kp DOT  &kp FSLH  &kp SQT
+                              &kp LALT  &kp BACKSPACE  &kp SPACE    &kp LEFT_GUI  &lt 2 ENTER  &lt 3 ESCAPE
             >;
         };
 
